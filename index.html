@@ -12,184 +12,224 @@
   <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script>
   <link rel="stylesheet" href="/home/moringa/Desktop/mpft-ip/css/styles.css" type="text/css">
 </head>
-
 <body>
+  <div onload="openFood(event, 'fastFood')"> <!--start-->
 
-  <div class="container-fluid">      <!--start-->
-
-    <div class="header ">          <!--start header-->
-      <div id="nav" class="overlay">
-        <a href="javascript:void(0)" class="closebtn" onclick="closeNav()">&times;</a>
-        <div class="overlay-content">
-          <a href="#">contacts</a>
-          <a href="#">events</a>
-          <a href="#">menu</a>
+    <div class="header">
+      <div class="hamburger1">
+        <button class="hamburger">&#9776;</button>
+        <button class="cross">&#735;</button>
       </div>
-      </div>
-      <span style="fontsize:30px;cursor:pointer" onclick="openNav()"> &#9776;</span>
-      <script>
-            function openNav() {
-                document.getElementById("myNav").style.width = "100vh";
-            }
-            function closeNav() {
-                document.getElementById("myNav").style.width = "0";
-            }
-        </script>
+      <div class="menu">
+          <ul>
+            <a href="#"><li>contacts</li></a>
+            <a href="#"><li>events</li></a>
+            <a href="#"><li>menu</li></a>
+          </ul>
+     </div>
+    <div class="logo">
+      <img src="/home/moringa/Desktop/mpft-ip/ip2/assets/logoBig.png" alt="logo">
+      <p>We Provide The Best Food<br>At the <strong>Right Price</strong></p>
+    </div>
 
-      <div class="logo">      <!--start logo-->
-        <img src="ip2/assets/logoBig.png" alt="logo">
-        <p>We Provide The Best Food<br>At The <strong>Right Price</strong></p>
-      </div>
-    </div><!--end header-->
+    </div>
+  </div> <!--end-->
 
-    <div id="banner">    <!--start banner-->
-      <div class="row" height="200px">
 
-          <div class="col-md-3">
-            <div id="h-hour">
-              Happy Hour
+
+    <div class="row">
+
+     <div class="col-3">
+       <div class="h-hour">
+         <h4 align="center">Happy Hour</h4>
+       </div>
+       <div class="p-time">
+         <h4 align="center">Party Time</h4>
+       </div>
+     </div>
+
+
+     <div class="col-3">
+       <div class="breakfast">
+         <h4 align="center">Breakfast</h4>
+       </div>
+     </div>
+     <div class="col-3">
+       <div class="lunch">
+         <h4 align="center">Lunch</h4>
+       </div>
+     </div>
+     <div class="col-3">
+       <div class="dinner">
+         <h4 align="center">Dinner</h4>
+       </div>
+     </div>
+
+
+
+     <div class="row">
+     <div class="container">
+      <div class="col-6">
+       <div class="row1">
+         <div class="polaroid">
+           <div class="imgsize">
+             <img src="ip2/assets/fastFood1.jpg" class="img-responsive" alt="">
+           </div>
+           <div class="imgsize">
+             <img src="ip2/assets/fastFood2.jpg" alt="">
+           </div>
+
+         </div>
+       </div>
+     </div>
+     <div class="col-6">
+       <div class="fastfood">
+         <h2>Fast Food</h2>
+         <h3>You will Love our Delicious Food</h3>
+         <p>
+           Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa. Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Donec quam felis, ultricies nec, pellentesque eu, pretium quis, sem. Nulla consequat massa quis enim. Donec pede justo, fringilla vel, aliquet nec, vulputate eget, arcu. In enim justo, rhoncus ut, imperdiet a, venenatis vitae, justo. Nullam dictum felis eu pede mollis pretium. Integer tincidunt. Cras dapibus. Vivamus elementum semper nisi. Aenean vulputate eleifend tellus. Aenean leo ligula, porttitor eu, consequat vitae, eleifend ac, enim. Aliquam lorem , dapibus in.
+         </p>
+         <!-- <a href="#"><img src="ip2/assets/gallery.jpg" alt=""></a> -->
+       </div>
+       </div>
+     </div>
+   </div><!--End of Row 2-->
+
+
+   <div class="row">
+      <div class="container">
+        <div class="col-6">
+          <div class="row2">
+            <h1>Drinks</h1>
+            <h2>We also produce Delicious Drinks</h2>
+            <p>
+              Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa. Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Donec quam felis, ultricies nec, pellentesque eu, pretium quis, sem. Nulla consequat massa quis enim. Donec pede justo, fringilla vel, aliquet nec, vulputate eget, arcu. In enim justo, rhoncus ut, imperdiet a, venenatis vitae, justo. Nullam dictum felis eu pede mollis pretium. Integer tincidunt. Cras dapibus. Vivamus elementum semper nisi. Aenean vulputate eleifend tellus. Aenean leo ligula, porttitor eu, consequat vitae, eleifend ac, enim. Aliquam lorem , dapibus in. Aenean vulputate eleifend tellus. Aenean leo ligula, porttitor eu, consequat vitae, eleifend ac, enim. Aliquam lorem , dapibus in.
+            </p>
+            <!-- <a href="#"><img src="ip2/assets/gallery.jpg" alt=""></a> -->
+          </div>
+        </div>
+        <div class="col-6">
+          <div class="row3g2">
+            <div class="polaroid">
+              <div class="imgsize2">
+                <img src="ip2/assets/drink1.jpg" alt="">
+
+                <img src="ip2/assets/drink2.jpg" alt="">
+              </div>
+
             </div>
-            <div id="p-time">
-              Party Time
+          </div>
+        </div>
+      </div>
+
+    </div><!--End of Row 3-->
+
+
+
+
+    <div class="row">
+      <div class="col-12">
+        <div class="row4">
+          <br>
+          <div class="tab">
+            <button class="tablinks" onclick="openFood(event, 'fastFood')">Fast Food</button>
+            <button class="tablinks" onclick="openFood(event, 'drinks')">Drinks</button>
+            <button class="tablinks" onclick="openFood(event, 'chicken')">Chicken</button>
+          </div>
+
+          <div id="fastFood" class="tabcontent">
+            <div class="drinks">
+              <div class="item">
+                  <img src="img/fastfood/chickenBurger.jpg" class="img-responsive" alt="">
+                  <span class="caption">Chicken Burger</span>
+              </div>
+              <div class="item">
+                  <img src="/ip2/img/fastfood/beefBurger.jpg" class="img-responsive" alt="">
+                  <span class="caption">Beef Burger</span>
+              </div>
+              <div class="item">
+                  <img src="ip2/img/fastfood/chickenPizza.jpg" class="img-responsive" alt="">
+                  <span class="caption">Chicken Pizza</span>
+              </div>
             </div>
           </div>
 
-        <div class="col-md-3" id="breakfast">
-          <p>Breakfast</p>
+    <div id="drinks" class="tabcontent">
+      <div class="fastfood">
+        <div class="item">
+            <img src="/home/moringa/Desktop/mpft-ip/ip2/assets/drink1.jpg" alt="">
+            <span class="caption">Alcoholic Drinks</span>
+        </div>
+        <div class="item">
+            <img src="/home/moringa/Desktop/mpft-ip/ip2/assets/drink2.jpg" alt="">
+            <span class="caption">Cold Drinks</span>
         </div>
 
-        <div class="col-md-3" id="lunch">
-          <p>Lunch</p>
-        </div>
-
-        <div class="col-md-3" id="dinner">
-          <p>Dinner</p>
-        </div>
       </div>
-    </div> <!--end of banner-->
+    </div>
 
-    <section class="center">           <!--start of section-->
 
-      <div class="row">
+    </div>
+    </div>
+    </div><!--End of Row 4-->
 
-            <div class="col-md-6">
-              <div class="img">
-                <img src="ip2/assets/fastFood1.jpg" alt="fastfood1" style="display: inline;">
-                <img src="ip2/assets/fastFood2.jpg" alt="fastfood2" style="display: inline">
-              </div>
-            </div>
 
-            <div class="col-md-6" align="left">
-              <div id="fast-food">
-                <h1>Fast Food</h1>
-                <h3>You'll love our delicious fast foods</h3>
-                <p>Lorem ipsum dolor sit amet, consectetur adipiscing<br> elit, sed do eiusmod tempor incididunt ut<br> labore et dolore magna aliqua. Ut enim ad minim<br> veniam, quis nostrud exercitation ullamco laboris<br> nisi ut aliquip ex ea commodo consequat. Duis<br> aute irure dolor in reprehenderit in voluptate velit<br> esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident</p>
-                <div class="view gallery">
-                  <a href="#" class="btn warning">view gallery &rarr;</a>
+    <div class="row">
+          <div class="col-12">
+            <div class="row5">
+              <div class="SideL">
+                <h3>Our Happy Customers</h3>
+                <p><strong>George Richard</strong></p>
+                <p>Great Food! Menu is awesome, their food is not only great but also in right price. I highly reccoment them</p>
+                <div class="customers">
+                  <img src="/home/moringa/Desktop/mpft-ip/ip2/img/customers/p1.png" alt="">
+                  <img src="/home/moringa/Desktop/mpft-ip/ip2/img/customers/p2.png" alt="">
+                  <img src="/home/moringa/Desktop/mpft-ip/ip2/img/customers/p3.png" alt="">
+
                 </div>
               </div>
-            </div>
+              <div class="SideR">
+                <h3>About Menu</h3>
+                <p>
+                  Adalah menjadi satu fakta bahawa pembaca akan terganggu oleh text yang boleh difahami apabila melihat susunan mukasurat. Kegunaan Lorem Ipsum adalah kerana ia mempunyai susunan ayat yang kelihatan normal, yang lebih menarik berbeza dengan "Contoh disini, contoh disini".
+                </p>
 
-
-            <div class="col-md-6" align="right">
-              <div id="drinks">
-                <h1>Drinks</h1>
-                <h3>We also produce delicious drinks</h3>
-                <p>Lorem ipsum dolor sit amet, consectetur adipiscing<br> elit, sed do eiusmod tempor incididunt ut<br> labore et dolore magna aliqua. Ut enim ad minim<br> veniam, quis nostrud exercitation ullamco laboris<br> nisi ut aliquip ex ea commodo consequat. Duis<br> aute irure dolor in reprehenderit in voluptate velit<br> esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident</p>
-                <div class="view gallery" color="#F15A29">
-                  <a href="#" class="btn warning">view gallery &rarr;</a>
-                </div>
-              </div>
-            </div>
-
-            <div class="col-md-6">
-              <div class="img">
-                <img src="/home/moringa/Desktop/mpft-ip/ip2/assets/drink1.jpg" alt="drink1" style="inline-block">
-                <img src="/home/moringa/Desktop/mpft-ip/ip2/assets/drink2.jpg" alt="drink2" style="inline-block">
-              </div>
-            </div>
-
-          </div>
-      </section>  <!--end of section-->
-
-      <div class="navbar-wrapper">
-        <div class="container">   <!--start-->
-          <div class="navbar navbar-inverse navbar-static-top">
-
-              <div class="navbar-header">
-              <a class="navbar-toggle" data-toggle="collapse" data-target=".navbar-collapse">
-      	      <span class="icon-bar"></span>
-      	      <span class="icon-bar"></span>
-      	      <span class="icon-bar"></span>
-      	    </a>
-              </div>
-              <div class="navbar-collapse collapse">
-                <ul class="nav navbar-nav">
-                  <li class="active"><a href="#">Fast Food</a></li>
-                  <li><a href="#">Drinks</a></li>
-                  <li><a href="#">chicken</a></li>
-                  <li><a href="#">Rice </a></li>
-                </ul>
               </div>
 
-          </div>
-        </div><!-- /container -->
-      </div><!-- /navbar wrapper -->
-
-
-      <!-- Carousel
-      ================================================== -->
-      <div id="myCarousel" class="carousel slide">
-        <!-- Indicators -->
-        <ol class="carousel-indicators">
-          <li data-target="#myCarousel" data-slide-to="0" class="active"></li>
-          <li data-target="#myCarousel" data-slide-to="1"></li>
-          <li data-target="#myCarousel" data-slide-to="2"></li>
-        </ol>
-        <div class="carousel-inner">
-          <div class="item active">
-            <img src="/home/moringa/Desktop/mpft-ip/ip2/img/fastfood/chickenBurger.jpg" class="img-responsive">
-            <div class="container">
-              <div class="carousel-caption">
-                </div>
             </div>
           </div>
-          <div class="item">
-            <img src="/home/moringa/Desktop/mpft-ip/ip2/img/fastfood/beefBurger.jpg" class="img-responsive">
-            <div class="container">
-              <div class="carousel-caption">
+        </div><!--End of Row 5-->
 
-              </div>
+        <div class="row">
+          <div class="col-12">
+            <div class="row6">
+              <br>
+              <h1>Get our daily food items delivered to your email</h1>
+              <div class="Email">
+                <input type="email" id="myEmail" value=""  placeholder="Your email..">
+                <input type="submit" id="myBtn" onclick="myFunction()" value="Subscribe" size="20">
             </div>
           </div>
-          <div class="item">
-            <img src="/home/moringa/Desktop/mpft-ip/ip2/img/fastfood/chickenPizza.jpg" class="img-responsive">
-            <div class="container">
-              <div class="carousel-caption">
+        </div><!--End of Row 6-->
 
-              </div>
+        <div class="row">
+          <div class="col-12">
+            <div class="footer">
+              <br>
+              <div class="content">
+                <img src="/home/moringa/Desktop/mpft-ip/ip2/img/footerlogos/logo_white.png" alt="">
+                <h1>MENU</h1>
+                  <p>Thats What We Are</p>
+                  <img src="/home/moringa/Desktop/mpft-ip/ip2/img/footerlogos/facebook.png" alt=""title="Facebook">
+                  <img src="/home/moringa/Desktop/mpft-ip/ip2/img/footerlogos/twitter.png" alt="" title="Twitter">
+                  <img src="/home/moringa/Desktop/mpft-ip/ip2/img/footerlogos/pinterest.png" alt="" title="Pinterest">
+                  <br><br> <br>
+                  <p>2017 Restaurant Menu</p>
+              </div>​
+
             </div>
           </div>
-        </div>
-
-        <!-- Controls -->
-        <a class="left carousel-control" href="#myCarousel" data-slide="prev">
-          <i class="glyphicon glyphicon-chevron-left"></i>
-        </a>
-        <a class="right carousel-control" href="#myCarousel" data-slide="next">
-          <i class="glyphicon glyphicon-chevron-right"></i>
-        </a>
-      </div>
-      <!-- /.carousel -->
-
-      <!-- FOOTER -->
-      <footer>
-        <p class="pull-right"><a href="#">Back to top</a></p>
-        <p>This Bootstrap layout is compliments of Bootply. · <a href="http://placehold.it/1500X500">Edit on Bootply.com</a></p>
-      </footer>
-
-    </div>               <!--end--->
-
+        </div><!--End of Row 6-->
 
     <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
